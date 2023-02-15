@@ -9,3 +9,12 @@ This project is intended to be a time series analysis of 4 tech stocks(Apple, Go
 - Create a model using all 4 stocks to determine future trends
 - To use all 4 stocks in a time series at once and be able to use the predicitions to infer market trends in the tech industry
 - Deliver a report on the project
+
+# Data Being Used
+The data used in this project was acquired from polygon.io using their API to gather data on the stocks for dates 02-16-21 through 02-12-23
+- Link to polygon's API https://polygon.io/docs/stocks/get_v2_aggs_ticker__stocksticker__range__multiplier___timespan___from___to
+
+# Data Dictionary
+
+# First Thoughts
+I beleieve there will be a correlation between all the stocks as they are the biggest stocks in the tech market. 
