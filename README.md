@@ -14,7 +14,12 @@ This project is intended to be a time series analysis of 4 tech stocks(Apple, Go
 The data used in this project was acquired from polygon.io using their API to gather data on the stocks for dates 02-16-21 through 02-12-23
 - Link to polygon's API https://polygon.io/docs/stocks/get_v2_aggs_ticker__stocksticker__range__multiplier___timespan___from___to
 
-# Data Dictionary
 
 # First Thoughts
-I beleieve there will be a correlation between all the stocks as they are the biggest stocks in the tech market. 
+I beleieve there will be a correlation between all the stocks as they are the biggest stocks in the tech market.
+The pandemic will likely have affected price
+
+# Final Thoughts
+I think a more refined understanding of time series and ARIMA in particular is needed to create a more accurate and usable model
+The biggest limitation is the scope of the data though. Two years simply is not enough to identify long term industry or individual trends
+The predictions are also made without any knowledge of events yet to occur that could also drastically alter the prices
