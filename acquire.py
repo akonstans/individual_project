@@ -33,8 +33,4 @@ def prep_data(df):
     df = df.drop(columns = ['v', 'vw', 't', 'n'])
     return df
 
-def wrangle_data(ticker, url = None):
-    df =  get_data(ticker, url)
-    df = get_dates(df)
-    df = prep_data(df)
-    return df
+
