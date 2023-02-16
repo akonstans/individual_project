@@ -19,6 +19,12 @@ The data used in this project was acquired from polygon.io using their API to ga
 I beleieve there will be a correlation between all the stocks as they are the biggest stocks in the tech market.
 The pandemic will likely have affected price
 
+# Process
+- First I acquired the data and added a datetime index to facilitate the use of time series analysis models
+- I then created a baseline, seasonal decomposition, moving average, Holt model, Holt Winters model, and ARIMA models
+- After examining the models I determined that the ARIMA was the best model to use due to examining other works and concept behind it
+- While running through models I tuned the orders for the ARIMA models to 30, 2, 5 respectivley and found that to be the best set of orders
+
 # Final Thoughts
 I think a more refined understanding of time series and ARIMA in particular is needed to create a more accurate and usable model
 The biggest limitation is the scope of the data though. Two years simply is not enough to identify long term industry or individual trends
