@@ -75,6 +75,7 @@ def arima(df, train, val, test, stock):
     plt.plot(val['c'], label='Validate', linewidth=1, color='#33EBDC')
     plt.plot(test['c'], label='Test', linewidth=2, color='#EF080C')
     plt.plot(ar_df['c'], label = 'ARIMA predictions', linewidth = 2, color='#30DF19')
+    plt.ylabel('Stock Price')
     plt.legend()
     plt.title(f'{stock} Stock Price')
     plt.show()
